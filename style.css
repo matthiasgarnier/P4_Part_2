@@ -1087,10 +1087,24 @@ h4 {
     margin-top: -18px;
     }
 
-.fontstyle {
-    font-size: 17px;
-    font-weight: 500;
+blockquote p {
+    font-family: "helvetica";
+    font-size: 19px;
+    font-weight: normal;
     font-style: italic;
+    text-transform: initial;
+}
+
+figcaption p {
+    font-family: "helvetica";
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: initial;
+}
+
+.fontstyle {
+    border-left: none;
+    align-items: center;
 }
 
 figcaption {
@@ -1109,4 +1123,12 @@ figcaption {
         align-items: center;
         justify-content: space-around;
     }
+}
+
+footer h3 {
+    color: #575757 !important;
+}
+
+footer .link {
+    margin: 5px 0 5px 0;
 }
