@@ -782,7 +782,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #575757 !important;
 }
 
 .btn-atomic-tangerine {
@@ -984,6 +984,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    #bloc-6 {
+        color: #F3976C;
+        filter:brightness(1.35)
+    }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1112,6 +1117,13 @@ figcaption {
     text-decoration: none;
     font-weight: 200;
     margin-top: 10px;
+}
+
+.img-responsive {
+    display: flex;
+
+    width: 300px;
+    height: 300px;
 }
 
 @media (max-width: 767px) {
