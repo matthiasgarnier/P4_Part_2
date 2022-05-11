@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,14 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto auto auto;
+}
+@media (max-width: 767px) {
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
 }
 
 h2 {
@@ -1093,6 +1100,13 @@ figcaption {
     margin-top: 10px;
 }
 
-/*.footer_row {
-    margin: 15px -15px 0px -15px;
-} */
+@media (max-width: 767px) {
+    .footer_row {
+        margin: 30px -15px 0px -15px;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
