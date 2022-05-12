@@ -2,4 +2,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://matthiasgarnier.github.io/P4_Part_2/
+Sitemap: https://github.com/matthiasgarnier/P4_Part_2/blob/main/sitemap.xml
