@@ -546,8 +546,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -1172,12 +1173,6 @@ figcaption {
         display: flex;
         align-items: center;
         justify-content: space-around;
-    }
-
-    .img-responsive {
-        width: 300px;
-        height: 300px;
-        margin: 40px 25% 0 25%;
     }
 }
 
